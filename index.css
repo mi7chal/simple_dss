@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+#form{
+	margin: 0 auto;
+	width:min-content;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+#form div{
+	flex-basis:100%;
+	display:flex;
+	justify-content:space-between;
+}
+#table{
+	margin:0 auto;
+	margin-top:20px;
+
+}
+#table thead{
+	font-weight:600;
+}
+
+#display tr td:nth-child(2){
+		text-align:center;
+}
